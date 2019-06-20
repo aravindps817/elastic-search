@@ -1,5 +1,5 @@
 <div class="searchBox" id="searchElastic">
-  <input id="searchBox" type="text" (focus) ="isActive = true" (focusout) ="isActive = false"   placeholder="{{placeHolder}}" 
+  <input id="searchBox" type="text" (focus) ="isActive = true" (focusout) ="isActive = false" autocomplete="off"  placeholder="{{placeHolder}}" 
     (keydown.arrowdown) = "downArrowEvent($event);" 
     (keydown.esc) = "hideSearchResults();" 
     (keydown.arrowup) = "upArrowEvent($event);"
